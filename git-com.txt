@@ -1,0 +1,35 @@
+1.    git config --global user.name "rohit kumar"
+2.    git config --global user.email "rk7944702@gmail.com"
+      functions:-
+               Sets configuration values for your user name, email, gpg key, preferred diff algorithm, file formats and more. Examples:
+               git config --global user.name "My Name"
+	       git config --global user.email "user@domain.com"
+
+3.    mkdir filename.txt (to make the file)
+4.    git init 
+      function:-
+              Initializes a git repository – creates the initial .git directory in a new or in an existing project.
+5.    git status
+      function:-
+		Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. 
+6.    git add abc.txt
+      functions:-
+               Adds files changes in your working directory to your index. 
+7.    git commit -m "MESSAGE"
+      functions:-
+              Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. 
+8.    git rm abc.txt
+      function:-
+		Removes files from your index and your working directory so they will not be tracked.
+9.  .gitignore
+     function:-The ignore files setting is one more useful setting to set before creating a repo in a directory. 
+               Files that should not be subject to version control are listed in the ".gitignore" file. 
+10.   git hist 
+      function:-
+                To check The History
+11.   git push origin master
+      function:-
+		Pushes all the modified local objects to the remote repository and advances its branches. 
+12.   git remote add origin (URL)
+      function:-
+		Pushes all the modified local objects to the remote repository and advances its branches.  v
